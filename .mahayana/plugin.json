@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "runtime": {
+    "cli": {
+      "executable": "./scripts/computer-cleaner.mjs"
+    }
+  },
+  "commands": [
+    { "name": "scan", "tool": "cleaner_scan" },
+    { "name": "clean", "tool": "cleaner_clean" },
+    { "name": "guard", "tool": "cleaner_guard" }
+  ]
+}

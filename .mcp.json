@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "computer-cleaner-local": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["./scripts/computer-cleaner.mjs", "mcp-serve"],
+      "cwd": "."
+    }
+  }
+}

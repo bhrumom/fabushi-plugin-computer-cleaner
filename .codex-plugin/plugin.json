@@ -1,0 +1,19 @@
+{
+  "name": "computer-cleaner",
+  "version": "0.1.0",
+  "description": "Safely preview and remove strictly allowlisted, regenerable caches and build output.",
+  "author": {
+    "name": "Fabushi"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Computer Cleaner",
+    "shortDescription": "Safely reclaim disk space from regenerable files.",
+    "longDescription": "Preview strictly allowlisted caches and build output, explain every candidate, and clean only after explicit confirmation with an audit trail.",
+    "developerName": "Fabushi",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": "Scan this workspace for safe, regenerable files and show a dry-run report."
+  },
+  "mcpServers": "./.mcp.json"
+}

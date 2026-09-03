@@ -1,0 +1,8 @@
+{
+  "provider": "github",
+  "repository": "bhrumom/fabushi-plugin-computer-cleaner",
+  "repositoryId": 1355541318,
+  "defaultBranch": "main",
+  "license": "Proprietary",
+  "subdirectory": "."
+}
